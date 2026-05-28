@@ -30,6 +30,9 @@
   --error-light: #ffebee;
   --info: #0c5460;
   --info-light: #d1ecf1;
+
+  /* Spacing */
+  --space-md: 0.9375rem;
 }
 
 * {
@@ -663,4 +666,11 @@ footer {
 
 #logout-button:hover {
   background-color: rgba(255, 255, 255, 0.3);
+}
+.announcement-banner {
+  background-color: var(--success);
+  color: white;
+  text-align: center;
+  padding: var(--space-md);
+  font-weight: bold;
 }
